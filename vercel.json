@@ -1,3 +1,9 @@
 {
-  "outputDirectory": "client/dist/public"
+  "outputDirectory": "client/dist/public",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
 }
